@@ -5,7 +5,9 @@ moneyCategroies = [100,100,50,10,10,5,2]
 
 for x in moneyCategroies:
 	balance = balance - x;
-	current = current+x;	
+	current = current+x;
+	print "give %r"	% x
+	#print "your current balance is %d" % balance
 
 print "withdrawn amount is %r" % current
 print "your current balance is %d" % balance
