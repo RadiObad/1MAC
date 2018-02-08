@@ -1,6 +1,7 @@
 balance = 500
 current = 0
 
+#to define money categories based on user selection
 moneyCategroies = [100,100,50,10,10,5,2]
 
 for x in moneyCategroies:
