@@ -2,7 +2,8 @@ balance = 800
 current = 0
 insuffBal = 0;
 
-moneyCategroies = [100,100,100,100,50,50,50,50,50,50,25,25,25,25,10,10,5,2]
+#to define money categories
+moneyCategroies = [100,100,50,10,10,5,2]
 
 for x in moneyCategroies:
 	balance = balance - x;
