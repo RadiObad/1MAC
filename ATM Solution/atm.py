@@ -17,4 +17,4 @@ if insuffBal == 0:
 	print "withdrawn amount is %r" % current
 	print "your current balance is %d" % balance
 else:
-	print "failed transaction"
+	print "failed transaction no money given"
