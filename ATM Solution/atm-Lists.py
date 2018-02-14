@@ -7,8 +7,8 @@ class ATM:
     self.balance = balance
     self.withDrawalList=[]
     print "="*50
-    print "Welcome to %r Bank" % self.bankName
-    print "Your current balance is: %r" % self.balance
+    print "Welcome to {0} Bank".format(self.bankName)
+    print "Your current balance is: {0}".format(self.balance)
     print "="*50
 
  def Calculate(self,request):
