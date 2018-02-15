@@ -19,5 +19,5 @@ class PostsManager:
 	def AddPost(self,post):
 		self.posts.AddPost(post)
 	def GetAllPosts(self) :       
-        for post in self.posts:
+          for post in self.posts:
             print "Post:{0} || content:{1}".format(post.title,post.content)	 	
