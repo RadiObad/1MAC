@@ -14,10 +14,10 @@ class MembersManager:
 class PostsManager:
 	posts = []
 	def CreatePost(self,title,content):
-		post = models.Member(title,content)
+		post = models.Post(title,content)
 		self.posts.append(post)	
 	def AddPost(self,post):
-		self.posts.AddPost(post)
+		self.posts.append(post)
 	def GetAllPosts(self) :       
           for post in self.posts:
-            print "Post:{0} || content:{1}".format(post.title,post.content)	 	
+            print "Post:{0} || content:{1}".format(post.Title,post.Content)	 	
