@@ -2,22 +2,30 @@ import models
 
 class MembersManager:
     members = []
-    def CreateMember(self,name,age):
+
+    def create_member(self,name,age):
         member = models.Member(name,age)
-        self.members.append(member)    
-    def AddMember(self,member):
-        self.members.append(member)    
-    def GetAllMembers(self):
+        self.members.append(member)  
+
+    def add_member(self,member):
+        self.members.append(member)  
+
+    def get_all_members(self):
         for member in self.members:
-            print "Name: {0} || Age: {1}".format(member.Name,member.Age)           
+            print "Name: {0} || Age: {1}".format(member.name,member.age)           
+
+
 
 class PostsManager:
 	posts = []
-	def CreatePost(self,title,content):
+
+	def create_post(self,title,content):
 		post = models.Post(title,content)
 		self.posts.append(post)	
-	def AddPost(self,post):
+
+	def add_post(self,post):
 		self.posts.append(post)
-	def GetAllPosts(self) :       
+
+	def get_all_posts(self) :       
           for post in self.posts:
-            print "Post:{0} || content:{1}".format(post.Title,post.Content)	 	
+            print "Post:{0} || content:{1}".format(post.title,post.content)	 	

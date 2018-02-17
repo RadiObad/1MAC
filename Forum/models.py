@@ -1,9 +1,9 @@
 class Member:
     def __init__(self,name,age):
-        self.Name = name
-        self.Age = age
+        self.name = name
+        self.age = age
 
 class Post:
     def __init__(self,title,Content):
-        self.Title = title
-        self.Content = Content
+        self.title = title
+        self.content = Content
